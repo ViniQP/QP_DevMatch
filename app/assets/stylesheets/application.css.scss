@@ -20,3 +20,21 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+body {
+   //Gradient provided by @_ighosh a uiGradients.com
+   background: #9D50BB;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(left, #6E48AA, #9D50BB);
+   background: -moz-linear-gradient(left, #6E48AA, #9D50BB);
+   background: -o-linear-gradient(left, #6E48AA, #9D50BB);
+   background: linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}               
+
+.navbar {
+   border: none;
+   //Gradient provided by @_ighosh a uiGradients.com
+   background: #ECE9E6;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
