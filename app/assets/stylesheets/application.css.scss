@@ -24,6 +24,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 // Background Gradient
 .navbar, .home-callout {
    //Gradient provided by @_ighosh
@@ -37,6 +38,7 @@ h1, h2, h3 {
 // Nav Styles
 .navbar {
    border: none;
+   min-width: auto;
 }
 
 .navbar-brand {
@@ -63,6 +65,7 @@ h1, h2, h3 {
    }
 
 }
+
 // Home Page Styles
 .home-callout {
    color: white;
@@ -72,12 +75,9 @@ h1, h2, h3 {
 }
 
 
-.well {
-   background: #9D50BB;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(left, #6E48AA, #9D50BB);
-   background: -moz-linear-gradient(left, #6E48AA, #9D50BB);
-   background: -o-linear-gradient(left, #6E48AA, #9D50BB);
-   background: linear-gradient(to right, #6E48AA, #9D50BB);
-   color: white;
-   border: solid black 1px;
+// About Us form styles
+.form-control:focus {
+   border-color: purple;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(138, 43, 226, 0.6);
 }
+
