@@ -71,3 +71,13 @@ h1, h2, h3 {
    padding-bottom: 100px;
 }
 
+
+.well {
+   background: #9D50BB;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(left, #6E48AA, #9D50BB);
+   background: -moz-linear-gradient(left, #6E48AA, #9D50BB);
+   background: -o-linear-gradient(left, #6E48AA, #9D50BB);
+   background: linear-gradient(to right, #6E48AA, #9D50BB);
+   color: white;
+   border: solid black 1px;
+}
