@@ -1,0 +1,65 @@
+********************************* 1. row *********************************
+                    id: 1
+                 email: test3@example.com
+    encrypted_password: $2a$11$0BxVpa90OhyhJ1qIgltmr.1DbcMqKsK4c0bYIdWGC.zB3x1IBFVJK
+  reset_password_token: 
+reset_password_sent_at: 
+   remember_created_at: 
+         sign_in_count: 1
+    current_sign_in_at: 2022-01-21 09:07:42 UTC
+       last_sign_in_at: 2022-01-21 09:07:42 UTC
+    current_sign_in_ip: 45.6.29.134
+       last_sign_in_ip: 45.6.29.134
+            created_at: 2022-01-21 09:07:42 UTC
+            updated_at: 2022-01-21 09:07:42 UTC
+               plan_id: 2
+ stripe_costumer_token: 
+********************************* 2. row *********************************
+                    id: 2
+                 email: test5@example.com
+    encrypted_password: $2a$11$2Skye6x9Ya7cAdLvrK8T8OBUy5gprOejjyVSo2vwdHp52lBMhs9jm
+  reset_password_token: 
+reset_password_sent_at: 
+   remember_created_at: 
+         sign_in_count: 1
+    current_sign_in_at: 2022-01-21 09:13:15 UTC
+       last_sign_in_at: 2022-01-21 09:13:15 UTC
+    current_sign_in_ip: 45.6.29.134
+       last_sign_in_ip: 45.6.29.134
+            created_at: 2022-01-21 09:13:15 UTC
+            updated_at: 2022-01-21 09:13:15 UTC
+               plan_id: 2
+ stripe_costumer_token: 
+********************************* 3. row *********************************
+                    id: 3
+                 email: aa@aa.com
+    encrypted_password: $2a$11$RLksAakAMePrhFT86Aj/2eoQCCsMe3ztsVjCfMG8SErfycq55Kg/.
+  reset_password_token: 
+reset_password_sent_at: 
+   remember_created_at: 
+         sign_in_count: 1
+    current_sign_in_at: 2022-01-21 09:13:46 UTC
+       last_sign_in_at: 2022-01-21 09:13:46 UTC
+    current_sign_in_ip: 45.6.29.134
+       last_sign_in_ip: 45.6.29.134
+            created_at: 2022-01-21 09:13:46 UTC
+            updated_at: 2022-01-21 09:13:46 UTC
+               plan_id: 2
+ stripe_costumer_token: 
+********************************* 4. row *********************************
+                    id: 4
+                 email: test10@example.com
+    encrypted_password: $2a$11$9QX5.SUHrxWb2oNNvrrtyufDahRqR5FcU6Taug6QNIEnjFwnmN3kO
+  reset_password_token: 
+reset_password_sent_at: 
+   remember_created_at: 
+         sign_in_count: 1
+    current_sign_in_at: 2022-01-21 09:14:51 UTC
+       last_sign_in_at: 2022-01-21 09:14:51 UTC
+    current_sign_in_ip: 45.6.29.134
+       last_sign_in_ip: 45.6.29.134
+            created_at: 2022-01-21 09:14:51 UTC
+            updated_at: 2022-01-21 09:14:51 UTC
+               plan_id: 2
+ stripe_costumer_token: 
+4 rows in set
