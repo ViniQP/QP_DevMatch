@@ -1,7 +1,8 @@
 .avatar-show-img {
-   width: 325px;
-   height: 325px;
+   width: 345px;
+   height: 345px;
    border: solid black 3px;
+   border-radius: 10px;
    margin-top: 25px;
    margin-bottom: 25px;
    //margin-right: -150px;
@@ -14,9 +15,6 @@
    background: #ECE9E6;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-
-
    color: black;
    
    h3 {
@@ -38,3 +36,21 @@
 
 }
 
+.pro-profile-text {
+   color: white;
+   border: 3px solid yellow;
+   font-size: 18px;
+   text-align: center;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-right: 10px;
+   display: block;
+}
+
+.job-title-icon {
+   display: inline block;
+}
+
+.block-profile-col {
+   display: inline-block;
+}

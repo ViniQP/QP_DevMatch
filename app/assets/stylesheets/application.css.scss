@@ -89,6 +89,36 @@ h1, h2, h3, p {
    width: 100%;
 }
 
+.well.home-pro-well {
+   border-radius: 5px;
+   color: white;
+   background: #3a6186;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.home-basic-well {
+   color: white;
+   background: #B993D6;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+.btn.btn-success.pro-btn, .btn.btn-primary.basic-btn {
+   border: solid black 2px;
+   border-radius: 5px;
+   color: black;
+   background: #FFF;
+   &:hover {
+      opacity: 0.8;
+   }
+}
 
 // About Us form styles
 .form-control:focus {

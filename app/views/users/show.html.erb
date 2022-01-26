@@ -4,23 +4,26 @@
          <%= image_tag @user.profile.avatar.url, class: 'avatar-show-img' %>
       </div>
       
-      <div class="col-md-6">
+      <div class="col-md-6 block-profile-col">
          <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
-         <h3><%= @user.profile.job_title %></h3>
+         <h3> <span class="job-title-icon"><%= job_title_icon %></span> <%= @user.profile.job_title %></h3>
          <div class="well profile-well profile-description">
             <h3>Description</h3>
-           <%= @user.profile.description %>
+            <%= @user.profile.description %>
          </div>
-         <% if current_user.plan_id == 2 %>
+         
             <div class="well profile-well profile-contact-info">
                <h3>Contact Information</h3>
                <%= @user.profile.phone_number %> <br>
                <%= @user.profile.contact_email %> <br>
             </div>
-         <% end %>
-    
+      
       </div>
+      <div class="col-md-2">
+         <% if current_user.plan_id == 2 %>
+         <p class="pro-profile-text">PRO</p>
+         <% end %>
+      </div>
+      
    </div>
-   
-
 </div>
