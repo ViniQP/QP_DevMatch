@@ -1,0 +1,40 @@
+.avatar-show-img {
+   width: 325px;
+   height: 325px;
+   border: solid black 3px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   //margin-right: -150px;
+   display: inline-block;
+}
+
+.well.profile-well {
+   border: solid black 1px;
+   //Gradient provided by @_ighosh
+   background: #ECE9E6;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+
+
+   color: black;
+   
+   h3 {
+      margin-top: 0;
+      margin-bottom: 100;
+   }
+}
+
+.profile-container {
+   margin-top: -18px;
+   color: white;
+   //Gradient provided by @_ighosh
+   background: #42275a;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(left, #734b6d, #42275a);
+   background: -moz-linear-gradient(left, #734b6d, #42275a);
+   background: -o-linear-gradient(left, #734b6d, #42275a);
+   background: linear-gradient(to right, #734b6d, #42275a); 
+   border-radius: 2px;
+
+}
+

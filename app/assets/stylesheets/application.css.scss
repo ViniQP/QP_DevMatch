@@ -28,11 +28,12 @@ h1, h2, h3, p {
 // Background Gradient
 .navbar, .home-callout {
    //Gradient provided by @_ighosh
-   background: #9D50BB;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(left, #6E48AA, #9D50BB);
-   background: -moz-linear-gradient(left, #6E48AA, #9D50BB);
-   background: -o-linear-gradient(left, #6E48AA, #9D50BB);
-   background: linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #42275a;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(left, #734b6d, #42275a);
+   background: -moz-linear-gradient(left, #734b6d, #42275a);
+   background: -o-linear-gradient(left, #734b6d, #42275a);
+   background: linear-gradient(to right, #734b6d, #42275a);  
+  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }               
 
 // Nav Styles
