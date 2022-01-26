@@ -5,7 +5,7 @@ module UsersHelper
       elsif @user.profile.job_title == "Entrepreneur"
          "<i class='fa fa-suitcase'></i>".html_safe
       elsif @user.profile.job_title == "Investor"
-         "<i class='fa fa-dolar'></i>".html_safe
+         "<i class='fa fa-dollar'></i>".html_safe
       end
    end
 end
