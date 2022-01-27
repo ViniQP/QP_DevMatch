@@ -1,16 +1,17 @@
 <div class= "container">
-   <h1 class= "text-center">Users</h1> <br>
+   <h1 class= "text-center">DevMatch Users</h1>
+   <h4 class= "text-center">Welcome to the DevMatch Community</h4>
    <% @users.each do |user| %> <br>
       <% if user.profile %>
          <%= link_to user do%>
             <div class="container profile-container index-container">
                <div class="row">
                   <ul>
-                     <div class="col-sm-2 text-center">
+                     <div class="col-sm-3 text-center">
                         <%= image_tag user.profile.avatar.url, class: 'avatar-show-img index-img' %>
                      </div>
                      
-                     <div class="col-sm-6 block-profile-col index-profile-col">
+                     <div class="col-sm-5 block-profile-col index-profile-col">
                         <h1><%= user.profile.first_name %> <%= user.profile.last_name %></h1>
                         <h3> <%= user.profile.job_title %></h3>
                      </div>
