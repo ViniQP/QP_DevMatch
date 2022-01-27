@@ -67,6 +67,10 @@ h1, h2, h3, p {
 
 }
 
+.btn.btn-warning.navbar-btn.nav-profile-btn {
+   color: black;
+}
+
 // Home Page Styles
 .home-callout {
    color: white;
@@ -120,6 +124,9 @@ h1, h2, h3, p {
    }
 }
 
+
+
+
 // About Us form styles
 .form-control:focus {
    border-color: purple;
@@ -138,3 +145,4 @@ h1, h2, h3, p {
 .home-signup-links {
    margin-top: 30px;
 }
+

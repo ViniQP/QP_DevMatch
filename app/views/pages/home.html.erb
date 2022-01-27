@@ -5,30 +5,22 @@
 <div class="container home-signup-links">
    <div class="row">
       <% if user_signed_in? %>
-         <div class="col-md-6">
-            <div class="well">
-               <h2 class="text-center">Your Profile</h2>
-               <% if current_user.profile %>
-                  
-                  <%= link_to "Edit your profile", edit_user_profile_path(user_id: current_user.id), 
-                  class: 'btn btn-default btn-lg btn-block' %>
-                  
-                  <%= link_to "View your profile", user_path(current_user.id), 
-                  class: 'btn btn-default btn-lg btn-block' %>
-                     
-               <% else %>
+         <% if not current_user.profile %>
+   
+            <div class="col-md-6">
+               <div class="well well-home-profile">
                   <p class="text-center">Create your profile so you can share your information with the community</p>
                   </br>
                   <%= link_to "Create your profile", 
                   new_user_profile_path(user_id: current_user.id),
                   class: 'btn btn-default btn-lg btn-block'%>
-                  
-                  
-               <% end %>
+               </div>
             </div>
-         </div>
-         <div class="col-md-6">
-            <div class="well">
+            
+            
+         <% end %>
+         <div class="col-md-8 col-md-offset-2">
+            <div class="well home-pro-well">
                <h2 class='text-center'>The Community</h2>
                <p class="text-center">Visit the community to meet other developer, entrepreneurs and investors</p>
                <br>

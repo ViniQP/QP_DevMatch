@@ -57,13 +57,15 @@
    display: inline-block;
 }
 
+.btn.btn-warning.profile-btn {
+   color: black;
+   margin-top: 252px;
+   margin-left: 20px;
+}
+
+
 // User Index Page Styles
 
-@media (min-width: 1200px) {
-    .container.profile-container.index-container{
-        max-width: 970px;
-    }
-}
 
 .container.profile-container.index-container {
    max-width: 75%;
@@ -76,6 +78,7 @@
    }
    
 }
+
 
 
 .avatar-show-img.index-img {
