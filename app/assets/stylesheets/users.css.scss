@@ -1,3 +1,5 @@
+// User Profile page Styles
+
 .avatar-show-img {
    width: 345px;
    height: 345px;
@@ -53,4 +55,37 @@
 
 .block-profile-col {
    display: inline-block;
+}
+
+// User Index Page Styles
+
+@media (min-width: 1200px) {
+    .container.profile-container.index-container{
+        max-width: 970px;
+    }
+}
+
+.container.profile-container.index-container {
+   max-width: 75%;
+   border-radius: 10px;
+   border-bottom: 5px solid black;
+   margin-bottom:  20px;
+   
+   &:hover {
+      opacity: 90%;
+   }
+   
+}
+
+
+.avatar-show-img.index-img {
+   border-radius: 50%;
+   position: static;
+   width: 100px;
+   height: 100px;
+}
+
+.col-sm-6.block-profile-col.index-profile-col {
+   position: relative;
+   margin-top: 5px;
 }
