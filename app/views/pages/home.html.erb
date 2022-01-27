@@ -5,10 +5,12 @@
 <div class="container home-signup-links">
    <div class="row">
       <% if user_signed_in? %>
-         <% if not current_user.profile %>
-   
-            <div class="col-md-6">
-               <div class="well well-home-profile">
+         <% if current_user.profile %>
+         
+         
+         <% else %>
+            <div class="col-md-8 col-md-offset-2">
+               <div class="well well-home-profile home-basic-well">
                   <p class="text-center">Create your profile so you can share your information with the community</p>
                   </br>
                   <%= link_to "Create your profile", 
