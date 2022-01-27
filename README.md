@@ -1,6 +1,6 @@
 # README
 
-Running Live on: [QpDevMatch](https://qpdevmatch.herokuapp.com/)
+Running Live on: [QPDevMatch](https://qpdevmatch.herokuapp.com/)
 
 Based on [Upskill](http://upskillcourses.com) Software-as-a-Service Ruby on Rails App
 
